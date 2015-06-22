@@ -27,6 +27,21 @@
                    @"row 7"
                    ].mutableCopy;
   [self.tableView setReorderable:YES];
+  self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStyleDone target:self action:@selector(toggleReorderable)];
+  [self updateRightNavButton];
+}
+
+- (void)updateRightNavButton {
+  if (self.tableView.reorderable) {
+    self.navigationItem.rightBarButtonItem.title = @"Disable Reorderable";
+  } else {
+    self.navigationItem.rightBarButtonItem.title = @"Enable Reorderable";
+  }
+}
+
+- (void)toggleReorderable {
+  self.tableView.reorderable = !self.tableView.reorderable;
+  [self updateRightNavButton];
 }
 
 - (void)didReceiveMemoryWarning {
