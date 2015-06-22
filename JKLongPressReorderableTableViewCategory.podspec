@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "A category for UITableView to make it long-press reorderable!"
   s.description      = <<-DESC
-                       A category for UITableView to make it long-press reorderable!
+                       A category for UITableView to make it long-press reorderable! Allow you to toggle the reorder function at anytime
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JKLongPressReorderableTableViewCategory"
+  s.homepage         = "https://github.com/jackkwong/JKLongPressReorderableTableViewCategory"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jack Kwong" => "kwong999999@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JKLongPressReorderableTableViewCategory.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/jackkwong/JKLongPressReorderableTableViewCategory.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
