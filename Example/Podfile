@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JKLongPressReorderableTableViewCategory_Example', :exclusive => true do
+  pod "JKLongPressReorderableTableViewCategory", :path => "../"
+end
+
+target 'JKLongPressReorderableTableViewCategory_Tests', :exclusive => true do
+  pod "JKLongPressReorderableTableViewCategory", :path => "../"
+
+  
+end
