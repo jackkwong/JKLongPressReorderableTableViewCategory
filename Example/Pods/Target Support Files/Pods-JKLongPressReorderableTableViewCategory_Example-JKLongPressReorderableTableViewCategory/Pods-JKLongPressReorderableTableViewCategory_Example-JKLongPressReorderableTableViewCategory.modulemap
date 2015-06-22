@@ -1,0 +1,6 @@
+framework module JKLongPressReorderableTableViewCategory {
+  umbrella header "Pods-JKLongPressReorderableTableViewCategory_Example-JKLongPressReorderableTableViewCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

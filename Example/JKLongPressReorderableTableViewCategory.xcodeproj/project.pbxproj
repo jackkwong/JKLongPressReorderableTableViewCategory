@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0439A09D1B37FAB1003D0E8E /* JKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439A09C1B37FAB1003D0E8E /* JKTableViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -36,13 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0439A09B1B37FAB1003D0E8E /* JKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTableViewController.h; sourceTree = "<group>"; };
+		0439A09C1B37FAB1003D0E8E /* JKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTableViewController.m; sourceTree = "<group>"; };
 		0AF1EA23A50F47A9FDF5C6E7 /* Pods-JKLongPressReorderableTableViewCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKLongPressReorderableTableViewCategory_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKLongPressReorderableTableViewCategory_Example/Pods-JKLongPressReorderableTableViewCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
 		18615D0249C5F9D0828EDD79 /* Pods-JKLongPressReorderableTableViewCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKLongPressReorderableTableViewCategory_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKLongPressReorderableTableViewCategory_Tests/Pods-JKLongPressReorderableTableViewCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1B17B7ACDEC0F3337324395F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2C31069D7EF0D8EB7AABE91B /* JKLongPressReorderableTableViewCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JKLongPressReorderableTableViewCategory.podspec; path = ../JKLongPressReorderableTableViewCategory.podspec; sourceTree = "<group>"; };
 		403E0C3CE470A46BEE846B2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5DE8318C76D5F3B9A85EBA77 /* Pods_JKLongPressReorderableTableViewCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKLongPressReorderableTableViewCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58A195388D20070C39A /* JKLongPressReorderableTableViewCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = JKLongPressReorderableTableViewCategory.app; path = JKLongPressReorderableTableViewCategory_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* JKLongPressReorderableTableViewCategory_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKLongPressReorderableTableViewCategory_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -55,7 +58,7 @@
 		6003F5A5195388D20070C39A /* JKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* JKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = JKLongPressReorderableTableViewCategory_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* JKLongPressReorderableTableViewCategory_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKLongPressReorderableTableViewCategory_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -108,8 +111,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* JKLongPressReorderableTableViewCategory.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* JKLongPressReorderableTableViewCategory_Example.app */,
+				6003F5AE195388D20070C39A /* JKLongPressReorderableTableViewCategory_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +138,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* JKViewController.h */,
 				6003F5A6195388D20070C39A /* JKViewController.m */,
+				0439A09B1B37FAB1003D0E8E /* JKTableViewController.h */,
+				0439A09C1B37FAB1003D0E8E /* JKTableViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -213,7 +218,7 @@
 			);
 			name = JKLongPressReorderableTableViewCategory_Example;
 			productName = JKLongPressReorderableTableViewCategory;
-			productReference = 6003F58A195388D20070C39A /* JKLongPressReorderableTableViewCategory.app */;
+			productReference = 6003F58A195388D20070C39A /* JKLongPressReorderableTableViewCategory_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* JKLongPressReorderableTableViewCategory_Tests */ = {
@@ -234,7 +239,7 @@
 			);
 			name = JKLongPressReorderableTableViewCategory_Tests;
 			productName = JKLongPressReorderableTableViewCategoryTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* JKLongPressReorderableTableViewCategory_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -392,6 +397,7 @@
 			files = (
 				6003F59E195388D20070C39A /* JKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JKViewController.m in Sources */,
+				0439A09D1B37FAB1003D0E8E /* JKTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

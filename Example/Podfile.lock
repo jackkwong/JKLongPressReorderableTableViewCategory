@@ -1,0 +1,14 @@
+PODS:
+  - JKLongPressReorderableTableViewCategory (0.1.0)
+
+DEPENDENCIES:
+  - JKLongPressReorderableTableViewCategory (from `../`)
+
+EXTERNAL SOURCES:
+  JKLongPressReorderableTableViewCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKLongPressReorderableTableViewCategory: c2fba4938cc5ec20ec596c5f072c7937c52bac8f
+
+COCOAPODS: 0.37.2

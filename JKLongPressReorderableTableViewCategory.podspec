@@ -10,12 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "JKLongPressReorderableTableViewCategory"
   s.version          = "0.1.0"
-  s.summary          = "A short description of JKLongPressReorderableTableViewCategory."
+  s.summary          = "A category for UITableView to make it long-press reorderable!"
   s.description      = <<-DESC
-                       An optional longer description of JKLongPressReorderableTableViewCategory
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       A category for UITableView to make it long-press reorderable!
                        DESC
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/JKLongPressReorderableTableViewCategory"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
